@@ -26,8 +26,12 @@ SECRET_KEY = "django-insecure-$yh1plos8+m4$nc!a7ot_#9+1)h7j=5lpk%um06937(8!#&3t6
 DEBUG = True
 
 
-# Allow all hosts
-ALLOWED_HOSTS = ['*']
+# Allow Codespace URL and localhost
+ALLOWED_HOSTS = [
+    'localhost',
+    '127.0.0.1',
+    'literate-pancake-g4qrrj7r45gqhq9w-8000.app.github.dev',
+]
 
 
 # Application definition
